@@ -1,0 +1,145 @@
+{
+    "experimentId": "b367fddb-fdcd-4d63-9097-742136776b72",
+    "domain": "google.com",
+    "queryType": "A",
+    "iterations": 5,
+    "executedAt": "2026-11-23T02:50:47.439457+00:00",
+    "dataOrigin": "live",
+    "providerResults": [
+        {
+            "providerId": "google",
+            "providerName": "Google DNS",
+            "dnsServer": "8.8.8.8",
+            "avgLatencyMs": 22.685,
+            "minLatencyMs": 19.088,
+            "maxLatencyMs": 25.009,
+            "successfulQueries": 5,
+            "failedQueries": 0,
+            "totalQueries": 5,
+            "successRate": 100.0,
+            "status": "operational",
+            "iterations": [
+                {
+                    "iteration": 1,
+                    "latencyMs": 21.104,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 2,
+                    "latencyMs": 25.009,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 3,
+                    "latencyMs": 19.088,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 4,
+                    "latencyMs": 24.93,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 5,
+                    "latencyMs": 23.293,
+                    "success": true,
+                    "errorReason": null
+                }
+            ]
+        },
+        {
+            "providerId": "cloudflare",
+            "providerName": "Cloudflare DNS",
+            "dnsServer": "1.1.1.1",
+            "avgLatencyMs": 20.487,
+            "minLatencyMs": 15.844,
+            "maxLatencyMs": 24.372,
+            "successfulQueries": 5,
+            "failedQueries": 0,
+            "totalQueries": 5,
+            "successRate": 100.0,
+            "status": "operational",
+            "iterations": [
+                {
+                    "iteration": 1,
+                    "latencyMs": 22.124,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 2,
+                    "latencyMs": 15.844,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 3,
+                    "latencyMs": 17.17,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 4,
+                    "latencyMs": 22.925,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 5,
+                    "latencyMs": 24.372,
+                    "success": true,
+                    "errorReason": null
+                }
+            ]
+        },
+        {
+            "providerId": "quad9",
+            "providerName": "Quad9 DNS",
+            "dnsServer": "9.9.9.9",
+            "avgLatencyMs": 92.443,
+            "minLatencyMs": 88.007,
+            "maxLatencyMs": 105.624,
+            "successfulQueries": 5,
+            "failedQueries": 0,
+            "totalQueries": 5,
+            "successRate": 100.0,
+            "status": "operational",
+            "iterations": [
+                {
+                    "iteration": 1,
+                    "latencyMs": 90.235,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 2,
+                    "latencyMs": 88.007,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 3,
+                    "latencyMs": 105.624,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 4,
+                    "latencyMs": 89.285,
+                    "success": true,
+                    "errorReason": null
+                },
+                {
+                    "iteration": 5,
+                    "latencyMs": 89.066,
+                    "success": true,
+                    "errorReason": null
+                }
+            ]
+        }
+    ]
+}

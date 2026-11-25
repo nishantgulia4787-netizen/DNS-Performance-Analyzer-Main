@@ -1,0 +1,6 @@
+{
+  "name": "DNS Performance Analyzer",
+  "description": "Network benchmarking dashboard for comparing DNS resolution latency, reliability, and performance across Google, Cloudflare, and Quad9 resolvers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

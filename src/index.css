@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Poppins', 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-sans: 'Poppins', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: #050505;
+    color: #F8FAFC;
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Signature chamfered hero glass container inspired by reference geometry */
+.hero-chamfer-clip {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 76px) 0,
+    100% 76px,
+    100% 100%,
+    0 100%
+  );
+}
+
+@media (max-width: 640px) {
+  .hero-chamfer-clip {
+    clip-path: polygon(
+      0 0,
+      calc(100% - 48px) 0,
+      100% 48px,
+      100% 100%,
+      0 100%
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
